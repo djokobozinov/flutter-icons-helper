@@ -9,5 +9,20 @@ In case you have the name for the icon(from [Material Icon class](https://api.fl
 
 You can display them in application in this way:
 ```
-icon: Icon(IconsHelper.iconMap['access_alarm_sharp']),
+Row(
+  mainAxisAlignment: MainAxisAlignment.spaceAround,
+  children: const <Widget>[
+    Icon(
+      IconsHelper.iconMap['access_alarm_sharp'],
+      color: Colors.pink,
+      size: 24.0,
+      semanticLabel: 'Text to announce in accessibility modes',
+    ),
+    Icon(
+      IconsHelper.iconMap['home'],
+      color: Colors.green,
+      size: 30.0,
+    )
+  ],
+)
 ```
