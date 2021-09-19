@@ -13,13 +13,13 @@ Row(
   mainAxisAlignment: MainAxisAlignment.spaceAround,
   children: const <Widget>[
     Icon(
-      IconsHelper.iconMap['access_alarm_sharp'],
+      IconsHelper.iconMap['home'],
       color: Colors.pink,
       size: 24.0,
       semanticLabel: 'Text to announce in accessibility modes',
     ),
     Icon(
-      IconsHelper.iconMap['home'],
+      IconsHelper.iconMap['access_alarm_sharp'],
       color: Colors.green,
       size: 30.0,
     )
