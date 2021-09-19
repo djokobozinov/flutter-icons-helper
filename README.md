@@ -11,12 +11,11 @@ You can display them in application in this way:
 ```
 Row(
   mainAxisAlignment: MainAxisAlignment.spaceAround,
-  children: const <Widget>[
+  children: <Widget>[
     Icon(
       IconsHelper.iconMap['home'],
       color: Colors.pink,
-      size: 24.0,
-      semanticLabel: 'Text to announce in accessibility modes',
+      size: 24.0
     ),
     Icon(
       IconsHelper.iconMap['access_alarm_sharp'],
