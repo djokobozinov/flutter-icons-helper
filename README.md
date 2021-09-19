@@ -20,7 +20,7 @@ Row(
     Icon(
       IconsHelper.iconMap['access_alarm_sharp'],
       color: Colors.green,
-      size: 30.0,
+      size: 30.0
     )
   ],
 )
