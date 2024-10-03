@@ -7,7 +7,7 @@ In case you have the name for the icon(from [Material Icon class](https://api.fl
 }
 ```
 
-You can display them in application in this way:
+You can display them in application in this way: 
 ```
 Row(
   mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -25,3 +25,5 @@ Row(
   ],
 )
 ```
+
+If you reference all icons, all of them will be in your bundle. So pick only the icons you need to keep them in the Map.
